@@ -28,11 +28,5 @@ Before you begin, make sure you have the following installed:
 - Node.js (https://nodejs.org/)
 - MongoDB (https://www.mongodb.com/try/download/community) or use a cloud instance like [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
-### Installation
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/transaction-management-app.git
-   cd transaction-management-app
 
