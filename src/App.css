@@ -1,0 +1,94 @@
+*{
+  box-sizing:border-box;
+ }
+  body{
+  background-color: rgb(26, 26, 34);
+  color: rgb(209, 204, 204);
+}
+main{
+  max-width: 360px;
+  margin: 40px auto;
+}
+h1 {
+  font-size: 3rem; /* Adjust size as needed */
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: baseline; /* Aligns the span to the text baseline */
+  gap: 0.2rem; /* Optional spacing between balance and fraction */
+}
+
+h1 span {
+  font-size: 1.5rem; /* Make it smaller than the main balance */
+  vertical-align: baseline; /* Aligns the span with the main text */
+}
+form{
+  margin-top: 20px;
+  
+}
+form input{
+  width: 100% ;
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid #696b75;
+  padding: 2px 5px;
+}
+
+form input[type="datetime-local"]{
+  color: #777;
+}
+form div.basics{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+form button{
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 3px 3px;
+  border: 0;
+  background-color: #ddd;
+}
+
+div.transacations{
+  margin-top: 15px;
+}
+
+div.transaction{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-top: 1px solid #696b75;
+}
+div.transaction:first-child{
+  border-top: 0;
+}
+div.transaction div.name{
+  font-size: 1.1rem;
+}
+div.transaction div.purpose{
+  font-size: 0.7rem;
+  color: #888;
+}
+div.right{
+  text-align: right;
+}
+div.price.green{
+  color: #1c1;
+}
+div.price.red{
+  color: #c11;
+}
+div.transaction div.date{
+  font-size: 0.7rem;
+  color: #888;
+}
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
